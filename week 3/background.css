@@ -1,0 +1,30 @@
+body{
+    background-color: lightblue;
+    background-image: url(python\ gambar.png); 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: right;
+}
+h1{
+    font-family: 'Times New Roman', 'Times', 'serif';
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    color: violet;
+    text-indent: 30px;
+}
+h2 {
+    text-align: center;
+    color: aqua;
+    text-transform: initial;
+    color: brown;
+}
+h3 {
+    text-align: center;
+    text-decoration: line-through;
+}
+p {
+    text-align: justify;
+    color: black;
+    letter-spacing: normal;
+}

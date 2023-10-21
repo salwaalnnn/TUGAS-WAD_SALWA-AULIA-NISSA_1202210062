@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color:black;
+}
+h2{
+    text-align: left;
+    color: purple;
+}
+h3{
+    text-align: right;
+    color:palevioletred;
+}
+p{
+    text-align: center;
+    color: brown
+}
