@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validate Data</title>
+    </head>
+    <body>
+        <h1>Javascript can validate input</h1>
+        <p>Please input a number between 1 and 13:</p>
+        <input id="numb" type="number">
+        <button type="button" onclick="myFunction()">Submit</button>
+        <p id="demo"></p>
+        <script>
+            function myFunction() {
+                var x, text;
+                //Get the valuse of the input field with id="numb"
+                x = document.getElementById("numb").value;
+
+                //if x is not a number or less than one or greater than 9
+                if (isNaN(x) || x < 1 || x > 13) {
+                    text = "input not valid";
+                } else {
+                    text = "input valid";
+                }
+                document.getElementById("demo").innerHTML = text;
+            }
+        </script>
+    </body>
+</html>

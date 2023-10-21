@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Bias NOW!</title>
+    </head>
+<body>
+    <h1>My Bias NOW!</h1>
+    <img id="myImage" onclick="changeImage()" src="do.jpg" width="160" height="180">
+    <p>Click the image to see the other one</p>
+    <script>
+        function changeImage(){
+            var image = document.getElementById('myImage');
+            if (image.src.match("yedam ☆")) {
+                image.src="do.jpg";
+            } else {
+                image.src="yedam ☆.jpeg";
+            }
+        }
+    </script>
+</body>
+</html>
